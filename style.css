@@ -106,3 +106,34 @@ body{
     display: none;
 }
 
+/* Responsive CSS */
+@media screen and (max-width: 600px) {
+    .card {
+        width: 90%;
+        padding: 30px 25px;
+    }
+    
+    .weather-icon {
+        width: 120px;
+    }
+    
+    .weather h1 {
+        font-size: 60px;
+    }
+    
+    .weather h2 {
+        font-size: 35px;
+    }
+    
+    .details {
+        margin-top: 30px;
+    }
+    
+    .col img {
+        width: 30px;
+    }
+    
+    .humidity, .wind {
+        font-size: 20px;
+    }
+}
